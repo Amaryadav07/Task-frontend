@@ -207,6 +207,7 @@ body {
   .form {
     width: 100%;
     padding: 1rem;
+    height: 500px;
   }
 
   #login-area p {
