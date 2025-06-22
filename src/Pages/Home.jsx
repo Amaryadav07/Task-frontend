@@ -59,6 +59,7 @@ const Home = () => {
               onChange={(e) => setEmail(e.target.value)}
              
             />
+            <br /> <br />
           </div>
           <div id="password-area">
             <input
@@ -71,6 +72,7 @@ const Home = () => {
              
             />
           </div>
+          <br /><br />
           <div id="footer-area">
             <button  onClick={handleSubmit}>Log In</button>
           </div>
