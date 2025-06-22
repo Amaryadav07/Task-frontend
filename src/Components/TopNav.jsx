@@ -187,7 +187,7 @@ const handleResetSubmit = async (e) => {
       <Navbar className="fs-4 nav-brand-custom" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand className="fs-4 nav-brand-custom">
-            TaskManagement System
+            TaskManager Pro
           </Navbar.Brand>
 
           <Nav className="ms-auto">
