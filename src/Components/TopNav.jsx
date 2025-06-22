@@ -203,8 +203,8 @@ const handleResetSubmit = async (e) => {
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
           <StyledWrapper>
-            <div className="login-modal-overlay">
-                <Form className="login-modal-form">
+            
+            <Form>
               <div className="login-card">
                 <span className="login-title">User Login</span>
                 <div className="login-inputBox">
@@ -239,8 +239,6 @@ const handleResetSubmit = async (e) => {
                 </a>
               </div>
             </Form>
-            </div>
-          
           </StyledWrapper>
           
         </Modal.Body>
