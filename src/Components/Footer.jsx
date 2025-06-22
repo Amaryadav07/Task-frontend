@@ -6,10 +6,12 @@ const Footer = () => {
   return (
     <footer
       className="text-light py-5 mt-auto"
-      style={{
-        background: "linear-gradient(135deg, #3f51b5, #00bcd4)",
-        color: "#f1f1f1",
-      }}
+  style={{
+  background: "linear-gradient(135deg, #1a1a2e, #16213e)",
+  color: "#f1f1f1",
+}}
+
+
     >
       <div className="container">
         <div className="row text-center text-md-start align-items-start">
