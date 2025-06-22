@@ -253,9 +253,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
-  padding: 10px;
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
   animation: slideUp 0.4s ease;
- 
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 }
 
 @keyframes slideUp {
@@ -318,6 +322,52 @@ body {
   background: linear-gradient(135deg, #472b9b, #2c146b);
   transform: translateY(-2px);
 }
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .login-modal-form {
+    padding: 15px;
+    max-width: 90%;
+    gap: 2rem;
+  }
+
+  .login-modal-form label {
+    font-size: 0.8rem;
+  }
+
+  .login-modal-form .form-control {
+    font-size: 0.95rem;
+    padding: 10px 12px;
+  }
+
+  .btn-login {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-modal-form {
+    padding: 10px;
+    gap: 1.5rem;
+  }
+
+  .login-modal-form .form-control {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+
+  .btn-login {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .login-modal-form label {
+    font-size: 0.75rem;
+    top: -8px;
+  }
+}
+
 
 
 
